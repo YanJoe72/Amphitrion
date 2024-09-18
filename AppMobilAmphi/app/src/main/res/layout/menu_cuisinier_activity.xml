@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageAmphitryon"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/amphitryon"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button_plat"
+        android:layout_width="208dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="296dp"
+        android:text="Plats"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageAmphitryon"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toEndOf="@+id/imageAmphitryon"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_plat_Propose"
+        android:layout_width="208dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="212dp"
+        android:text="Plats proposé"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageAmphitryon"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toEndOf="@+id/imageAmphitryon"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">amphimobil</string>
+
+    <string-array name="items_array">
+        <item>Entrée</item>
+        <item>Plat</item>
+        <item>Dessert</item>
+    </string-array>
+</resources>
